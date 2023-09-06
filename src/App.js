@@ -32,7 +32,7 @@ function App() {
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center',
-            height: '250px', // Adjust the height as needed
+            height: '220px', // Adjust the height as needed
             marginBottom: '20px', // Adjust the height as needed
           }}
         />
