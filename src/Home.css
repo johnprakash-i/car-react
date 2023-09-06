@@ -1,0 +1,13 @@
+/* Home.css */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .grid-image {
+    width: 100%;
+    height: auto;
+  }
+  

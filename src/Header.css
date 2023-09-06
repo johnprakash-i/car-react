@@ -1,0 +1,93 @@
+/* Header.css */
+
+/* Styles for the header component */
+.header {
+  background-color: black;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.yamaha {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.enquiryIcon {
+  cursor: pointer;
+  font-size: 24px;
+}
+
+/* Styles for the EnquiryForm section */
+.enquiryOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.enquiryClose {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color:black;
+  font-size: 24px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.enquiryForm {
+  background-color: #000; /* Set the background color to black */
+  color: #000; /* Set the text color to black */
+  padding: 20px 150px 20px 150px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.enquiryForm h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color:white;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  background-color: #000; /* Set the input background color to black */
+  color: #fff; /* Set the input text color to white */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
